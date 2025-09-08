@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "checkJs": false, // <-- Esto desactiva la revisión de errores en archivos JS
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
